@@ -20,6 +20,15 @@ func TestHypernym2(t *testing.T) {
 	}
 }
 
+func TestHypernym2(t *testing.T) {
+	testWord := "frog"
+	want := "animal"
+	got, _ := Hypernym(testWord)
+	if got != want {
+		t.Errorf("Hypernym = %q for %q, want %q", got, testWord, want)
+	}
+}
+
 func TestHypernym3(t *testing.T) {
 	testWord := "navigator"
 	want := "explorer"
