@@ -20,7 +20,7 @@ func TestHypernym2(t *testing.T) {
 	}
 }
 
-func TestHypernym2(t *testing.T) {
+func TestHypernym3(t *testing.T) {
 	testWord := "frog"
 	want := "animal"
 	got, _ := Hypernym(testWord)
@@ -29,7 +29,7 @@ func TestHypernym2(t *testing.T) {
 	}
 }
 
-func TestHypernym3(t *testing.T) {
+func TestHypernym4(t *testing.T) {
 	testWord := "navigator"
 	want := "explorer"
 	got, _ := Hypernym(testWord)
